@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSI</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="Rectangle.png" type="image/x-icon">
+        <link rel="stylesheet" href="csi.css" type="text/css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <a href="#inicio"><img src="logocsi.svg" alt="logo" width="80px" height="30px"></a>
+            </div>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </label>
+            <label id="overlaym" for="sidebar-active"></label>
+            <div class="links-container">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>  
+                </label>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto"><label for="overlay-toggle" style="cursor: pointer;">Contacto</label></a>
+            </div> 
+        </nav>
+    
+        <div id="inicio">
+            <h1>Lorem Ipsum Dolor Sit Amet, <strong> Consectetur Adipiscing Elit </strong></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.us? Corrupti, obcaecati neque.</p>
+            <button style="cursor: pointer;" onclick="document.getElementById('overlay-toggle').checked=true;">Contactanos</button>
+        </div>
+
+        <div id="nosotros">
+          <div class="textonos">
+            <h2>Sobre nosotros</h2>
+            <div class="linea"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni provident, rerum necessitatibus dignissimos incidunt vel expedita? Rem delectus voluptates tenetur! Commodi, maiores ex debitis voluptatibus quis porro? Eos, quae vitae.</p>
+          </div>
+            <div class="imagennos"></div>
+        </div>
+
+        <div id="clientes">
+            <h3>Clientes que confían en nosotros</h3>
+            <div class="logo-container">
+                <div class="logos" id="logo-container">
+                    <img src="logo-benito.png" alt="Logo 1">
+                    <img src="Logo-Ceamse.svg" alt="Logo 2">
+                    <img src="logo-citygas.png" alt="Logo 3">
+                    <img src="logo-claxson.png" alt="Logo 4">
+                    <img src="logo-dl.png" alt="Logo 1">
+                    <img src="logo-don antonio.png" alt="Logo 2">
+                    <img src="logo-tecsan.png" alt="Logo 3">
+                    <img src="logo-Saint-Gobain.png" alt="Logo 4">
+                    <img src="logo-unipar.png" alt="Logo 1">
+                    <img src="logo-hospitalhm.jfif" alt="Logo 2">
+                </div>
+            </div>
+        </div>
+
+        <div id="servicios">
+            <div class="textoser">
+              <h2>Nuestros servicios</h2>
+              <div class="linea2"></div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus explicabo quos aperiam eius ex quod natus excepturi molestiae culpa accusamus, nisi sapiente, laboriosam ipsam asperiores voluptatibus dolore minima adipisci doloremque?</p>
+              <div id="cardser">
+                    <div class="card-item">
+                        <h3>SAP</h3>
+                        <ul>
+                            <li>Consultoría funcional</li>
+                            <li>Programación ABAP</li>
+                            <li>Hana</li>
+                            <li>Modulo FI-CO-PP-MM-CD-QM-BSC-PM</li>
+                            <li>Interfaces PI-PO-BAPIS</li>
+                        </ul>
+                    </div>
+                    <div class="card-item">
+                        <h3>IOT</h3>
+                        <ul>
+                            <li>Desarrollo de PLC</li>
+                            <li>Comunicaciones WIFI-SERIAL-LORA-SIGFOS</li>
+                            <li>Protocolos CAN, MODBUS, TCP, UDP, MQTT</li>
+                            <li>Interfaces con Balanzas, Semáforos, Barreras infrarrojas, etc.</li>
+                            <li>Estaciones Meteorológicas.</li>
+                        </ul>
+                    </div>
+                    <div class="card-item">
+                        <h3>Desarrollos</h3>
+                        <ul>
+                            <li>ERP.</li>
+                            <li>Aplicaciones móviles.</li>
+                            <li>Web Services.</li>
+                            <li>Docker Containers.</li>
+                            <li>G.I.S.</li>
+                            <li>Servicios de comunicación TCP/UDP</li>
+                        </ul>
+                    </div>
+                    <div class="card-item">
+                        <h3>Aplicaciones</h3>
+                        <ul>
+                            <li>Sistema ERP</li>
+                            <li>Sistema de Logística de distribución con aplicación móvil.</li>
+                            <li>Web Services AFIP (Factura electrónica, Exportación, Factura de crédito).</li>
+                            <li>Operación autónoma de Balanza.</li>
+                            <li>Sistema de seguimiento de incendios con aplicación móvil.</li>
+                            <li>G.I.S. ubicación de eventos, posicionamiento de móviles, rutas, georeferenciación inversa, etc.</li>
+                            <li>Administración de información de estaciones meteorológicas.</li>
+                            <li>Aplicaciones Web (Administrativas, Logísticas, Estadísticas, ect)</li>
+                        </ul>
+                    </div>
+              </div>
+            </div>
+        </div>
+        
+        <div id="proyectos">
+            <div class="textoser">
+                <h2>Algunos de nuestros trabajos</h2>
+                <div class="linea2"></div>
+            </div>
+            <div class="scroll-cards">
+                <div class="cards">
+                    <img src="imagenprueba.png" alt="" class="imagen-card">
+                    <div class="text-cards">
+                        <h4>Ceamse</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat recusandae totam quas sed quidem consequuntur cum molestias? Illo repellat quos porro quisquam nulla, magnam optio, at, voluptatibus laudantium molestias doloribus?</p>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="imagenprueba2.png" alt="" class="imagen-card">
+                    <div class="text-cards">
+                        <h4>DCL</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat recusandae totam quas sed quidem consequuntur cum molestias? Illo repellat quos porro quisquam nulla, magnam optio, at, voluptatibus laudantium molestias doloribus?</p>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="imagenprueba3.png" alt="" class="imagen-card">
+                    <div class="text-cards">
+                        <h4>Clima</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat recusandae totam quas sed quidem consequuntur cum molestias? Illo repellat quos porro quisquam nulla, magnam optio, at, voluptatibus laudantium molestias doloribus?</p>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="imagenprueba4.png" alt="" class="imagen-card">
+                    <div class="text-cards">
+                        <h4>Mapa</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat recusandae totam quas sed quidem consequuntur cum molestias? Illo repellat quos porro quisquam nulla, magnam optio, at, voluptatibus laudantium molestias doloribus?</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        
+        <input type="checkbox" id="overlay-toggle" class="hidden" />
+<div id="overlay">
+    <div class="overlay-content">
+        <label for="overlay-toggle" class="close-button">&times;</label> <!-- Botón de cierre -->
+        <h2>Contacto</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>
+            <strong>Celular:   </strong> <a href="tel:+5491234567890">  +54 9 1234 567890</a><br>
+            <strong>Email:   </strong><a href="mailto:correo@ejemplo.com">  correo@ejemplo.com</a>
+        </p>
+    </div>
+</div>
+
+
+        <footer class="footer">
+            <div class="footer-logo">
+                <img src="logocsi.svg" alt="Logo del sitio">
+            </div>
+            <div class="footer-info">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contacto</h3>
+                <ul>
+                    <li>Celular:   <a href="tel:+123456789">+123 456 789</a></li>
+                    <li>Email:   <a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-location">
+                <h3>Ubicación</h3>
+                <p>Buenos Aires, Argentina</p>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
