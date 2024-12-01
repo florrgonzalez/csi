@@ -121,7 +121,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-image: url(iniciofondo.png);
+    background-image: url(imagenhero.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -188,6 +188,7 @@ button:active{
     gap: 100px;
     flex-wrap: wrap;
 }
+
 
 .textonos{
     display: flexbox;
@@ -391,6 +392,7 @@ p{
     padding: 0px 12px;
     justify-content:center;
     gap: 20px;
+    
 }
 
 .cards{
@@ -430,7 +432,7 @@ p{
 }
 
 .text-cards h4{
-    color: #000;
+    color: #1C1B1F;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
@@ -456,7 +458,7 @@ p{
 }
 
 #overlay {
-    position: fixed; 
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -465,10 +467,10 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1000; 
-    opacity: 0; 
-    pointer-events: none; 
-    transition: opacity 0.3s; 
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
 }
 
 #overlay-toggle:checked + #overlay {
@@ -477,41 +479,29 @@ p{
 }
 
 .overlay-content {
+    position: relative;
+    background-color: white;
+    padding: 30px 10px;
+    border-radius: 10px;
     text-align: center;
-    background-color: #fff; 
-    padding: 20px;
-    border-radius: 5px; 
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); 
-    width: 90%; 
-    max-width: 500px; 
-    position: relative; 
-    overflow: auto; 
-    max-height: 90%;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
-
-.overlay-content h2{
-    padding-bottom: 10px;
-}
-
 .overlay-content p{
-    line-height: 1.5em;
     color: #1C1B1F;
-    padding: 1px;
-    font-size: 18px;
+    margin-bottom: 10px;
+    font-size: 24px;
 }
 
 .overlay-content a:link{
-    color: #1C1B1F;
+    color: #0277D5;
     text-decoration: none;
-}
-
-.overlay-content a:hover{
-    border-bottom: 1px solid black;
 }
 
 .close-button {
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 15px;
     font-size: 30px;
     cursor: pointer; /* Cambia el cursor al pasar el mouse */
@@ -522,14 +512,47 @@ p{
 }
 
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Espacio entre los íconos */
+    align-items: center;
+    margin-top: 30px;
+}
+
+.button svg {
+    width: 24px; /* Tamaño de los íconos */
+    height: 24px;
+    transition: transform 0.3s ease; /* Efecto de transición al hacer hover */
+}
+
+.button:hover svg {
+    transform: scale(1.2); /* Aumenta el tamaño al pasar el mouse */
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 25%;
+    background-color: #0277D5;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #4f91c7; /* Color de fondo al pasar el mouse */
+}
+
 
 
 
 .footer {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 20px 50px;
+    padding: 20px 30px;
     background-color: #ffffff;
     border-top: 1px solid rgba(114, 111, 111, 0.30);
     color: #1C1B1F;
@@ -588,7 +611,6 @@ p{
     text-align: center;
     margin-top: 20px;
     width: 100%;
-    padding: 10px 0px;
 }
 
 

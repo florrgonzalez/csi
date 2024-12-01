@@ -11,3 +11,4 @@ for (let i = 0; i < totalLogos; i++) {
 // Calcular la duración de la animación en función del número de logos
 const animationDuration = 15 + totalLogos * 0.5; // Ajusta la duración según la cantidad de logos
 logoContainer.style.animationDuration = `${animationDuration}s`; // Establecer la duración de la animación
+
