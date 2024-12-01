@@ -5,6 +5,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+html, body {
+    overflow-x: hidden;
+}
 
 nav{
     width: 100%;
