@@ -135,7 +135,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-image: url(imagenhero.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(95, 95, 95, 0.5)), url('imagenhero.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -199,7 +199,7 @@ button:active{
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 100px;
+    gap: 30px 100px;
     flex-wrap: wrap;
 }
 
@@ -246,7 +246,7 @@ button:active{
     width: 445px;
     height: 320px;
     border-radius: 25px;
-    background: url(Rectangle.png);
+    background: url(imagennos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -567,9 +567,9 @@ p{
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px 30px;
-    background-color: #ffffff;
+    background-color: #1C1B1F;
     border-top: 1px solid rgba(114, 111, 111, 0.30);
-    color: #1C1B1F;
+    color: #ffffff;
     flex-wrap: wrap;
 }
 
@@ -604,18 +604,18 @@ p{
 
 .footer-info li a, 
 .footer-contact li a{
-    color: rgb(0, 0, 0);
+    color: #FFF;
     text-decoration: none;
     font-size: 16px;
 }
 
 .footer-info li a:hover,
 .footer-contact li a:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .footer-location p{
-    color: #000;
+    color: #fff;
     font-size: 16px;
     text-align: left;
 }
